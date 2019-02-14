@@ -25,7 +25,7 @@ function addProjectDetails(e) {
 	var idNumber = projectID.substr('project'.length);
 
 	console.log("User clicked on project " + idNumber);
-	var res = $.get('http://localhost:3000/project/' + idNumber, addProject);
+	var res = $.get('https://lab6-rwe.herokuapp.com/project/' + idNumber, addProject);
 	console.log(res);
 }
 
