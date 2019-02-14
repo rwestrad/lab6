@@ -33,7 +33,7 @@ function addProject(result) {
 	var stringID = '#project' + result.id + ' .details';
   var projectHTML = '<a href="#" class="thumbnail">' +
     '<img src="' + result['image'] + '" class="detailsImg">' +
-    '<p>' + result['summary	'] + '</p>' +
+    '<p>' + result['summary'] + '</p>' +
     '<p><small>' + result['date'] +
     '</small></p></a>'; 
 
